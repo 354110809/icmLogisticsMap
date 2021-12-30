@@ -1,5 +1,6 @@
 
 module.exports = {
+    // productionSourceMap:false,
     publicPath: process.env.NODE_ENV === 'production' ? '/' : '/', // TODO: Remember to change this to fit your need
     lintOnSave: false,
     devServer: {
